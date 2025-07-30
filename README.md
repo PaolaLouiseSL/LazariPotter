@@ -1,2 +1,2 @@
 # LazariFilmes
-Filmes de graça Dublados!!
+Filmes de graça!!
