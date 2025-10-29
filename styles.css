@@ -2,17 +2,18 @@ body {
     color: rgb(255, 220, 65);
     background: rgb(141, 11, 11);
     font-family: "EB Garamound", EB Garamound;
+    margin-bottom: 100px;
 }
 
 header {
-    border-bottom: solid 2px rgb(133, 95, 13);
+    border-bottom: solid 2px rgb(105, 10, 10);
     padding: 20px;
     font-size: 32px;
     color: rgb(240, 205, 8);
 }
 
-section {
-    background: rgb(8 60 28);
+.chamada {
+    background: rgb(56, 1, 1);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -29,4 +30,36 @@ h1 {
 
 p {
   font-size: 20px;
+}
+
+img {
+  height: 200px;
+}
+
+.categoria-videos{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+ 
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+
+.categoria-videos img{ 
+ opacity: 0.5;
+height: 200px;
+}
+
+
+.categoria-videos img:hover {
+opacity: 1.0;
+ border: 1px solid rgb(255, 238, 0);
+}
+
+.categoria h2 {
+   color: rgb(221, 181, 2);
 }
